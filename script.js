@@ -15,7 +15,7 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
   })
   
     // Add a variable "pet_info" equal to a object with the name (string), weight (number), and happiness (number) of your pet
-    var pet_info = {name:"Gooby", weight:89, happiness:100, level:1}; // Added new variable 'level' to pet info
+    var pet_info = {name:"Gooby", weight:"89", happiness:100, level:1}; // Added new variable 'level' to pet info
   
     function clickedTreatButton() {
       pet_info.happiness += 5; // Increase pet happiness
